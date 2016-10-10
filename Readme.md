@@ -26,6 +26,13 @@ Go clone [the dotfiles repo](https://github.com/ksmandersen/dotfiles).
 ./install.bash
 ```
 
+Install Xcode colors:
+
+```bash
+mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
+cp *.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
+```
+
 ### Atom
 
 Download it: [Atom](https://atom.io/).
